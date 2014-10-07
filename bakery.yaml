@@ -1,0 +1,5 @@
+commit: HEAD
+process_files: [UnicaOne-Regular.ttf.ttx, src/UnicaOne-Regular.otf.ttx, src/UnicaOne-Regular-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
